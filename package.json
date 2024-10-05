@@ -185,7 +185,11 @@
   "codegenConfig": {
     "name": "RNFastOpencvSpec",
     "type": "modules",
-    "jsSrcsDir": "src"
+    "jsSrcsDir": "src",
+    "outputDir": {
+      "android": "android",
+      "ios": "ios"
+    }
   },
   "create-react-native-library": {
     "type": "module-mixed",
